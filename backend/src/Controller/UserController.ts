@@ -2,7 +2,7 @@ import { Controller, Get, Post, Put, Delete, Body, Param, ParseIntPipe, HttpStat
 import { UserService } from './../Service/UserService';
 import { User } from '../model/UserModel';
 
-@Controller('api/users')
+@Controller('users')
 export class UserController {
   constructor(private readonly userService: UserService) {}
 

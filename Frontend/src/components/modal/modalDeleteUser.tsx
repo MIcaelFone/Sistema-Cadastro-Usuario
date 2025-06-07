@@ -8,7 +8,7 @@ interface ModalDeleteUserProps {
     onClose: () => void;
 }
 
-export default function modalDeleteUser({id, isOpen, onClose}: ModalDeleteUserProps) {
+export default function ModalDeleteUser({id, isOpen, onClose}: ModalDeleteUserProps) {
     const handleDelete = async (id: number) => {
         try {
             const deleteUser = await axios.delete(`http://localhost:3001/api/users/${id}`);
@@ -20,6 +20,7 @@ export default function modalDeleteUser({id, isOpen, onClose}: ModalDeleteUserPr
                 }, 1000);
             }
         } catch (error) {
+            console.error('Erro ao deletar usuário:', error);
             toast.error('Erro ao deletar usuário.');
         }
     }

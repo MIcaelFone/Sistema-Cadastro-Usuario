@@ -1,8 +1,8 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigModule } from '@nestjs/config';
-import { UserModule } from './Module/UserModule';
-import { User } from './model/UserModel';
+import { UserModule } from './src/Module/UserModule';
+import { User } from './src/model/UserModel';
 import * as dotenv from 'dotenv';
 dotenv.config();
 

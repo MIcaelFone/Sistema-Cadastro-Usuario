@@ -8,7 +8,7 @@ interface ModalUpdateUserProps {
     onClose: () => void;
 }
 import { useEffect } from 'react';
-export default function modalUpdateUser({ id, isOpen, onClose }: ModalUpdateUserProps) {
+export default function ModalUpdateUser({ id, isOpen, onClose }: ModalUpdateUserProps) {
     const [nome ,setNome] =useState('');
     const [email ,setEmail] =useState('');
     const handleUpdate = async (id: number) => {
@@ -18,9 +18,9 @@ export default function modalUpdateUser({ id, isOpen, onClose }: ModalUpdateUser
         })
         if (updateUser.status === 200) {
             toast.success('Usuário atualizado com sucesso!');
-            setInterval(() => {
+            setTimeout(() => {
                 window.location.reload();
-            },1000);
+            },1500);
         } else {
             toast.error('Erro ao atualizar usuário.');
         }
@@ -34,7 +34,7 @@ export default function modalUpdateUser({ id, isOpen, onClose }: ModalUpdateUser
         if (id) {
             fetchUser(id);
         }
-    },[])
+    },[id,isOpen])
 
     return (
         <div> 

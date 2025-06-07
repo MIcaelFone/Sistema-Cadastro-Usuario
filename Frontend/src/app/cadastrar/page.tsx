@@ -4,12 +4,10 @@ import { useState } from 'react';
 import axios from 'axios';
 import Header from '../../components/Header';
 import Toast from 'react-hot-toast';
-export default function cadastrarUsuario() {
+export default function CadastrarUsuario() {
   const [nome,setNome] = useState<string>('');
   const [email,setEmail] = useState<string>('');
   const sendData = async() =>{
-    console.log('Nome:', nome);
-    console.log('Emailh:' , email);
     const response=await axios.post('http://localhost:3001/api/users/', {
       nome: nome,
       email: email
@@ -18,7 +16,7 @@ export default function cadastrarUsuario() {
       Toast.success('Usuário cadastrado com sucesso!');
       setNome('');
       setEmail('');
-      setInterval(() => {
+      setTimeout(() => {
         window.location.href = '/';
       },1500)
     } else {
@@ -40,7 +38,7 @@ export default function cadastrarUsuario() {
             </div>
             <div className="mb-4">
               <label htmlFor="name" className="form-label">Nome</label>
-              <input type="nome" className="form-control" id="nome" placeholder="name"
+              <input type="text" className="form-control" id="nome" placeholder="name"
               value={nome} 
               onChange={(e)=>setNome(e.target.value)}/> 
             </div>
