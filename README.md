@@ -6,7 +6,7 @@ Sistema completo para cadastro de usuários, com front-end em **Next.js**, back-
 
 ## 📌 Objetivo
 
-Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dados com segurança no banco de dados e disponibilizando uma API documentada com Swagger para facilitar o consumo dos endpoints.
+Permitir o cadastro de usuários com **e-mail** e **nome**, armazenando os dados com segurança no banco de dados e disponibilizando uma API documentada com Swagger para facilitar o consumo dos endpoints.
 
 ---
 
@@ -102,7 +102,6 @@ Sistema-Cadastro-Usuario/
   npm run dev
 ```
 ## Como configurar o Banco de Dados
-<br>
 <p>Crie um arquivo .env para configurar o seu BD na raiz do pasta Backend</p>
 
 ```env
@@ -113,3 +112,8 @@ DB_USER=userdoseuBD
 DB_PASSWORD=suasenha
 DB_NAME=nomedoseudatabase
 ```
+## Tela do sistema
+#### Tela da Home
+<img src="images/telaInicial.png"></img>
+#### Tela do Formulário
+<img src="images/telaFormulário.png"></img>
