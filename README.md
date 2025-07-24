@@ -79,16 +79,14 @@ Sistema-Cadastro-Usuario/
 ```bash
   cd Frontend 
 ```
-#### Baixar as dependencias e rodar o Frontend
+#### Rodando o Frontend
+<p> Siga os passos abaixo para instalar as dependências e iniciar o servidor:</p>
+
 ```bash
   npm i
   npm run dev
 ```
-#### Baixar as dependencias e rodar o Backend
-```bash
-  npm i
-  npm run dev
-```
+
 
 ### Backend
 
@@ -96,7 +94,9 @@ Sistema-Cadastro-Usuario/
 ```bash
   cd Backend
 ```
- #### Baixar as dependencias e rodar o Backend
+ #### Rodando o Backend
+ <p> Siga os passos abaixo para instalar as dependências e iniciar o servidor:</p>
+ 
 ```bash   
   npm i
   npm run dev
