@@ -101,3 +101,15 @@ Sistema-Cadastro-Usuario/
   npm i
   npm run dev
 ```
+## Como configurar o Banco de Dados
+<br>
+<p>Crie um arquivo .env para configurar o seu BD na raiz do pasta Backend</p>
+
+```env
+# Banco de Dados MySQL
+DB_HOST=seuuserhost
+DB_PORT=portadoseuBDusada
+DB_USER=userdoseuBD
+DB_PASSWORD=suasenha
+DB_NAME=nomedoseudatabase
+```
