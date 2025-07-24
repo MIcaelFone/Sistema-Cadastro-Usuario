@@ -52,7 +52,7 @@ Sistema-Cadastro-Usuario/
 ├── tsconfig.json
 ├── package.json
 ```
-<br>
+
 ### Backend
 
  ```bash
