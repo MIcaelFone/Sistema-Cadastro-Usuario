@@ -32,7 +32,7 @@ Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dado
 ### Frontend
 ```bash
 Sistema-Cadastro-Usuario/
-├── frontend/ # Projeto Next.js
+├── Frontend/ # Projeto Next.js
  ├── src/
 │   ├── app/
 │   │   ├── cadastrar/
@@ -67,4 +67,37 @@ Sistema-Cadastro-Usuario/
  │   ├── main.ts           # Arquivo de bootstrap do NestJS
  │   └── ...configs
 
+```
+## 📁 Como baicar e rodar o projeto
+### Baixar o projeto
+```bash
+  git clone https://github.com/MIcaelFone/Sistema-Cadastro-Usuario.git
+```
+### Frontend
+
+#### Entrar na pasta Frontend
+```bash
+  cd Frontend 
+```
+#### Baixar as dependencias e rodar o Frontend
+```bash
+  npm i
+  npm run dev
+```
+#### Baixar as dependencias e rodar o Backend
+```bash
+  npm i
+  npm run dev
+```
+
+### Backend
+
+#### Entrar na pasta Backend
+```bash
+  cd Backend
+```
+ #### Baixar as dependencias e rodar o Backend
+```bash   
+  npm i
+  npm run dev
 ```
