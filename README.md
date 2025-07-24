@@ -29,7 +29,7 @@ Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dado
 ---
 
 ## 📁 Estrutura do Projeto
-
+### Frontend
 ```bash
 Sistema-Cadastro-Usuario/
 ├── frontend/ # Projeto Next.js
@@ -51,4 +51,20 @@ Sistema-Cadastro-Usuario/
 ├── next.config.js
 ├── tsconfig.json
 ├── package.json
+```
+<br>
+### Backend
+
+ ```bash
+ Sistema-Cadastro-Usuario/
+ ├── backend/ # Projeto Next.js
+ ├── src/
+ │   ├── Controller/       # Controladores (rotas)
+ │   ├── model/            # Entidades ou interfaces de dados
+ │   ├── Module/           # Módulos do sistema
+ │   ├── Service/          # Regras de negócio
+ │   ├── app.module.ts     # Módulo principal da aplicação
+ │   ├── main.ts           # Arquivo de bootstrap do NestJS
+ │   └── ...configs
+
 ```
