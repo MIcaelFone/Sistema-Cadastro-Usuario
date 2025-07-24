@@ -116,7 +116,7 @@ DB_NAME=nomedoseudatabase
 <strong><p> http://localhost:3001/swagger-ui.html </p> </strong>
 
 ## Tela do sistema
-#### Tela da Home
+### Tela da Home
 <img src="images/telaInicial.png"></img>
-#### Tela do Formulário
+### Tela do Formulário
 <img src="images/telaFormulário.png"></img>
