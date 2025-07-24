@@ -29,4 +29,18 @@ Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dado
 ---
 
 ## 📁 Estrutura do Projeto
+### Frontend
+
+Sistema-Cadastro-Usuario/
+├── frontend/ # Projeto Next.js
+│ ├── pages/
+│ └── components/
+├── backend/ # Projeto NestJS
+│ ├── src/
+│ │ ├── user/
+│ │ ├── auth/
+│ │ ├── main.ts
+│ ├── ormconfig.ts
+│ └── ...
+└── README.md
 
