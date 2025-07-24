@@ -33,14 +33,22 @@ Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dado
 ```bash
 Sistema-Cadastro-Usuario/
 ├── frontend/ # Projeto Next.js
-│ ├── pages/
-│ └── components/
-├── backend/ # Projeto NestJS
-│ ├── src/
-│ │ ├── user/
-│ │ ├── auth/
-│ │ ├── main.ts
-│ ├── ormconfig.ts
-│ └── ...
-└── README.md
+ ├── src/
+│   ├── app/
+│   │   ├── cadastrar/
+│   │   │   ├── page.tsx         # Página de cadastro
+│   │   │   └── cadastrar.module.css  # (opcional) Estilo específico da página
+│   │   ├── layout.tsx           # Layout geral
+│   │   ├── page.tsx             # Página inicial (ex: login ou home)
+│   │   └── globals.css          # Estilos globais
+│   ├── components/
+│   │   ├── FormCadastro.tsx     # Componente reutilizável de formulário
+│   │   ├── Input.tsx            # Componente de input (email, senha, etc.)
+│   │   ├── Button.tsx           # Componente de botão
+│   │   └── ...outros componentes
+├── public/
+│   └── favicon.ico
+├── next.config.js
+├── tsconfig.json
+├── package.json
 ```
