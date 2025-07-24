@@ -29,8 +29,8 @@ Permitir o cadastro de usuários com **e-mail** e **senha**, armazenando os dado
 ---
 
 ## 📁 Estrutura do Projeto
-### Frontend
 
+```bash
 Sistema-Cadastro-Usuario/
 ├── frontend/ # Projeto Next.js
 │ ├── pages/
@@ -43,4 +43,4 @@ Sistema-Cadastro-Usuario/
 │ ├── ormconfig.ts
 │ └── ...
 └── README.md
-
+```
