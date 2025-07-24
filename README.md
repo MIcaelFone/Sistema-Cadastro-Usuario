@@ -68,7 +68,7 @@ Sistema-Cadastro-Usuario/
  │   └── ...configs
 
 ```
-## 📁 Como baicar e rodar o projeto
+## 📁 Como baixar e rodar o projeto
 ### Baixar o projeto
 ```bash
   git clone https://github.com/MIcaelFone/Sistema-Cadastro-Usuario.git
